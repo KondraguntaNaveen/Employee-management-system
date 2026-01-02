@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>User Management System</h2>
+
+  <form id="userForm">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="number" id="age" placeholder="Age" required />
+    <input type="text" id="company" placeholder="Company" required />
+    <input type="text" id="role" placeholder="Role" required />
+    <button type="submit">Add User</button>
+  </form>
+
+  <h3>Users</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Company</th>
+        <th>Role</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="userTable"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
