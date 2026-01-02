@@ -121,4 +121,4 @@ Role-based access control
 React frontend
 
 Deployment to cloud platforms
-
+<img width="1918" height="434" alt="Image" src="https://github.com/user-attachments/assets/f7a3f1ea-4a90-4999-9e25-e4dd034f8990" />
