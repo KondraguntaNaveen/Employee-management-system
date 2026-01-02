@@ -1,10 +1,9 @@
-
-#🧑‍💼 Employee Management System
+ # Employee Management System
 
 A full-stack CRUD web application developed using Node.js, Express.js, and Vanilla JavaScript.
 This project allows users to Create, Read, Update, and Delete (CRUD) employee records with real-time updates between frontend and backend.
 
-📌 Features
+# 📌 Features
 
 Add new employees
 
@@ -20,7 +19,7 @@ RESTful API design
 
 In-memory data storage (for learning purposes)
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 Backend
 
 Node.js
@@ -47,7 +46,7 @@ Postman / Thunder Client
 
 GitHub
 
-📁 Project Structure
+# 📁 Project Structure
 employee-management-system
 │
 ├── server.js
@@ -61,7 +60,7 @@ employee-management-system
 │
 └── README.md
 
-🚀 How to Run the Project
+# 🚀 How to Run the Project
 1️⃣ Clone the Repository
 git clone <your-github-repo-link>
 cd employee-management-system
@@ -84,13 +83,13 @@ OR
 
 Use Live Server extension in VS Code
 
-🔗 API Endpoints
+# 🔗 API Endpoints
 Method	Endpoint	Description
 GET	/users	Fetch all employees
 POST	/users	Add new employee
 PUT	/users/:id	Update employee
 DELETE	/users/:id	Delete employee
-🧪 Sample POST Request
+# 🧪 Sample POST Request
 {
   "name": "Rahul",
   "age": 23,
@@ -98,7 +97,7 @@ DELETE	/users/:id	Delete employee
   "role": "HR"
 }
 
-🧠 How It Works
+# 🧠 How It Works
 
 Frontend sends HTTP requests using Fetch API
 
@@ -111,7 +110,7 @@ Any CRUD operation updates the data immediately
 GET request always returns the latest updated data
 
 
-📈 Future Enhancements
+# 📈 Future Enhancements
 
 MongoDB database integration
 
